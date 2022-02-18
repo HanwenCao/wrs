@@ -35,7 +35,8 @@
     
     
     <!-- create the robot + eef combo itself as a macro -->
-    <xacro:gripper prefix="gripper_"/>
+    <!--xacro:gripper prefix="gripper_"/--> <!--Error: https://github.com/qboticslabs/mastering_ros/issues/11 -->
+    <xacro:robotiq_arg2f_140 prefix="gripper_"/> 
     
     <!-- Since the universal_robot dosen't specify a  inertial for tool0, we need to place an empty fixed link with a negligible mass to tool0, that we can place our force sensor into the revolute joint.(Since the Robot uses a quick copuler for the tool, it is used for this purpos)-->
     <link name="${prefix}tool0_inertial">
