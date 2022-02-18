@@ -7,7 +7,8 @@
 #include <std_msgs/Int8.h>
 // TF2
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
-
+#include "geometry_msgs/TwistStamped.h"//
+#include <tf/transform_broadcaster.h>//
 //MoveIt
 #include <moveit_msgs/ExecuteTrajectoryAction.h>
 // For chaning speed in computeCartesianPath
@@ -240,7 +241,7 @@ bool touchjog(ros::Publisher pub, moveit::planning_interface::MoveGroupInterface
   void upright(moveit::planning_interface::MoveGroupInterface& group, float gripperlength, float  objectradius, float savetyZ){
     geometry_msgs::Pose target_pose;
     tf2::Quaternion orientation;
-    tfScalar yaw,pitch,roll;
+    tfScalar yaw,pitch,roll;//
     target_pose = group.getCurrentPose().pose;
     tf2::fromMsg(target_pose.orientation,orientation);
     tf2::Matrix3x3 mat(orientation);

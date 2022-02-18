@@ -25,22 +25,18 @@
     </link>
   </xacro:macro>
 
-  <xacro:macro name="finger_joints" params="prefix fingerprefix reflect pad">
+  <xacro:macro name="finger_joints" params="prefix fingerprefix reflect">
     <xacro:outer_finger_joint prefix="${prefix}" fingerprefix="${fingerprefix}"/>
     <xacro:inner_knuckle_joint prefix="${prefix}" fingerprefix="${fingerprefix}" reflect="${reflect}"/>
     <xacro:inner_finger_joint prefix="${prefix}" fingerprefix="${fingerprefix}"/>
-    <xacro:if value="${pad}">
-      <xacro:inner_finger_pad_joint prefix="${prefix}" fingerprefix="${fingerprefix}"/>
-    </xacro:if>
+    <xacro:inner_finger_pad_joint prefix="${prefix}" fingerprefix="${fingerprefix}"/>
   </xacro:macro>
-  
-  <xacro:macro name="finger_links" params="prefix fingerprefix stroke pad">
+
+  <xacro:macro name="finger_links" params="prefix fingerprefix stroke">
     <xacro:outer_knuckle prefix="${prefix}" fingerprefix="${fingerprefix}" stroke="${stroke}"/>
     <xacro:outer_finger prefix="${prefix}" fingerprefix="${fingerprefix}" stroke="${stroke}"/>
     <xacro:inner_finger prefix="${prefix}" fingerprefix="${fingerprefix}" stroke="${stroke}"/>
-    <xacro:if value="${pad}">
-      <xacro:inner_finger_pad prefix="${prefix}" fingerprefix="${fingerprefix}"/>
-    </xacro:if>
+    <xacro:inner_finger_pad prefix="${prefix}" fingerprefix="${fingerprefix}"/>
     <xacro:inner_knuckle prefix="${prefix}" fingerprefix="${fingerprefix}" stroke="${stroke}"/>
   </xacro:macro>
 </robot>

@@ -101,8 +101,10 @@ int main(int argc, char ** argv)
 	F.torque[1]=ft_massage.wrench.torque.y;
 	F.torque[2]=ft_massage.wrench.torque.z;
 	
-	tf::vectorKDLToTF(F.force, vf);
-	tf::vectorKDLToTF(F.torque, vt);
+	//tf::vectorKDLToTF(F.force, vf);
+	vf[0] = F.force[0]; vf[1] = F.force[1]; vf[2] = F.force[2];
+	//tf::vectorKDLToTF(F.torque, vt);
+	vt[0] = F.torque[0]; vt[1] = F.torque[1]; vt[2] = F.torque[2];
 	
 	for (unsigned int j=0; j<3; j++){
 	  F.force[j] = echo_transform.getBasis()[j].dot(vf);

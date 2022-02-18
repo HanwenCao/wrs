@@ -15,6 +15,8 @@
 
 #include <functions.h>
 
+#include "geometry_msgs/TwistStamped.h"//
+
 geometry_msgs::WrenchStamped ft_massage;
 void callback_ft (const geometry_msgs::WrenchStampedConstPtr& msg){
    ft_massage = *msg;
