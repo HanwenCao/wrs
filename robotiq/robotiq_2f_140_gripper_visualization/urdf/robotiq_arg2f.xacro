@@ -44,4 +44,3 @@
     <xacro:inner_knuckle prefix="${prefix}" fingerprefix="${fingerprefix}" stroke="${stroke}"/>
   </xacro:macro>
 </robot>
-

@@ -19,7 +19,7 @@
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model robot -J shoulder_lift_joint -0.5 -unpause" respawn="false" output="screen" />
   
   <include file="$(find ur_gazebo)/launch/controller_utils.launch"/>
- <!-- start this controller -->
+  <!-- start this controller -->
   <rosparam file="$(find wrs_gazebo)/controller/arm_controller_ur5.yaml" command="load"/>
   <node name="arm_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn arm_controller" respawn="false" output="screen"/> 
    <!-- load other controllers -->

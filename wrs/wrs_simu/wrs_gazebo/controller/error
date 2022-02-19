@@ -1,0 +1,222 @@
+errror:
+Started ['joint_state_controller'] successfully
+[ERROR] [1645258187.134213677, 0.001000000]: Could not load controller 'gripper_controller' because controller type 'position_controllers/GripperActionController' does not exist.
+[ERROR] [1645258187.134279262, 0.001000000]: Use 'rosservice call controller_manager/list_controller_types' to get the available types
+Error when loading 'gripper_controller'
+
+
+
+
+hanwen@hanwen-Precision-3640-Tower:~/Projects/Simulator/Gazebo/wrs_ws$ sudo apt-get install ros*controller*
+[sudo] password for hanwen: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Note, selecting 'ros-noetic-cob-tricycle-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-state-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-velocity-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-trajectory-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ackermann-steering-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pass-through-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-calibration-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-effort-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-gimbal-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-dynamixel-workbench-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-scaled-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-fake-controller-manager' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-dynamixel-workbench-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-omni-drive-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controller-interface' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controllers-msgs' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-mesh-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-speed-scaling-state-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-controllers-msgs' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-state-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pose-base-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controller-configuration' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-graceful-controller-ros' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-mechanism-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-imu-sensor-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-twist-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-qualification-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-industrial-robot-status-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-manager-tests' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-graceful-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-gripper-action-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-mecanum-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-cartesian-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pass-through-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-sim-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-manager' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-scaled-joint-trajectory-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ros-controllers-cartesian' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-velocity-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-state-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-simple-controller-manager' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-tricycle-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-shooter-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-chassis-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rqt-controller-manager' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controller-manager-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-calibration-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-omni-drive-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-twist-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-position-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-trajectory-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-controllers-interface' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-controllers-interface-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-base-controller-utils' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-position-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-franka-example-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ethercat-trigger-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-graceful-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-shooter-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-trajectory-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-scaled-joint-trajectory-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ethercat-trigger-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-force-torque-sensor-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-mesh-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-twist-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-sim-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-manager-tests-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-simple-controller-manager-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-force-torque-sensor-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rviz-animated-view-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-diff-drive-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-qualification-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-gimbal-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-robot-mechanism-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-effort-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-gripper-action-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controller-manager' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ros-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-forward-command-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-cartesian-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rviz-animated-view-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-interface' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-safety-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-four-wheel-steering-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rqt-joint-trajectory-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-calibration-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-diff-drive-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-trajectory-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-imu-sensor-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-usb-cam-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-graceful-controller-ros-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-view-controller-msgs' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pose-base-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cartesian-trajectory-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-mecanum-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-calibration-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-manager-msgs' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cartesian-trajectory-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-mechanism-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-cob-base-controller-utils-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-ackermann-steering-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-arbotix-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-twist-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-joint-state-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-four-wheel-steering-controller-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-usb-cam-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-moveit-fake-controller-manager-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-rm-chassis-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-controller-manager-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-pr2-mechanism-controllers' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-speed-scaling-state-controller' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-franka-example-controllers-dbgsym' for glob 'ros*controller*'
+Note, selecting 'ros-noetic-industrial-robot-status-controller-dbgsym' for glob 'ros*controller*'
+ros-noetic-cartesian-trajectory-controller is already the newest version (0.1.5-1focal.20220212.161950).
+ros-noetic-controller-interface is already the newest version (0.19.5-1focal.20220106.235928).
+ros-noetic-controller-interface set to manually installed.
+ros-noetic-controller-manager is already the newest version (0.19.5-1focal.20220107.000501).
+ros-noetic-controller-manager set to manually installed.
+ros-noetic-controller-manager-msgs is already the newest version (0.19.5-1focal.20220107.000302).
+ros-noetic-controller-manager-msgs set to manually installed.
+ros-noetic-diff-drive-controller is already the newest version (0.19.0-1focal.20220212.160345).
+ros-noetic-diff-drive-controller set to manually installed.
+ros-noetic-effort-controllers is already the newest version (0.19.0-1focal.20220212.160318).
+ros-noetic-force-torque-sensor-controller is already the newest version (0.19.0-1focal.20220107.000731).
+ros-noetic-forward-command-controller is already the newest version (0.19.0-1focal.20220107.000123).
+ros-noetic-forward-command-controller set to manually installed.
+ros-noetic-industrial-robot-status-controller is already the newest version (0.1.2-1focal.20220107.004524).
+ros-noetic-joint-state-controller is already the newest version (0.19.0-1focal.20220107.001349).
+ros-noetic-joint-state-controller set to manually installed.
+ros-noetic-joint-trajectory-controller is already the newest version (0.19.0-1focal.20220212.160740).
+ros-noetic-pass-through-controllers is already the newest version (0.1.0-1focal.20220212.162256).
+ros-noetic-position-controllers is already the newest version (0.19.0-1focal.20220107.000334).
+ros-noetic-position-controllers set to manually installed.
+ros-noetic-scaled-joint-trajectory-controller is already the newest version (0.1.0-1focal.20220212.161727).
+ros-noetic-speed-scaling-state-controller is already the newest version (0.1.0-1focal.20220107.004204).
+ros-noetic-twist-controller is already the newest version (0.1.5-1focal.20220107.000127).
+ros-noetic-velocity-controllers is already the newest version (0.19.0-1focal.20220107.000309).
+The following additional packages will be installed:
+  alsa-oss ipython3 liba52-0.7.4 libaribb24-0 libbasicusageenvironment1 libcddb2 libdca0 libdvbpsi10 libdvdnav4 libdvdread7 libebml4v5 libfaad2 libgeographic-dev libgeographic19 libgflags2.2
+  libgroupsock8 libgsl-dev libgsl23 libgslcblas0 libixml10 libkate1 liblivemedia77 libmad0 libmatroska6v5 libmpcdec6 libmpeg2-4 libopenmpt-modplug1 libplacebo7 libproxy-tools libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libsidplay2 libspatialaudio0 libsrt1 libssh2-1 libtool-bin libupnp13 libusageenvironment3 libva-wayland2 libvlc-bin libvlc-dev libvlc5 libvlccore9 ocl-icd-opencl-dev
+  opencl-c-headers python3-backcall python3-decorator python3-ipython python3-ipython-genutils python3-jedi python3-parso python3-pickleshare python3-prompt-toolkit python3-pygraphviz python3-traitlets
+  python3-wcwidth ros-noetic-arbotix-msgs ros-noetic-arbotix-python ros-noetic-base-local-planner ros-noetic-cob-actions ros-noetic-cob-control-msgs ros-noetic-cob-frame-tracker ros-noetic-cob-light
+  ros-noetic-cob-mimic ros-noetic-cob-script-server ros-noetic-cob-sound ros-noetic-cob-srvs ros-noetic-combined-robot-hw ros-noetic-costmap-2d ros-noetic-dynamixel-sdk
+  ros-noetic-dynamixel-workbench-msgs ros-noetic-dynamixel-workbench-toolbox ros-noetic-four-wheel-steering-msgs ros-noetic-franka-control ros-noetic-franka-gripper ros-noetic-franka-hw
+  ros-noetic-franka-msgs ros-noetic-geographic-msgs ros-noetic-geometric-shapes ros-noetic-joint-trajectory-action ros-noetic-libfranka ros-noetic-lvr2 ros-noetic-mbf-abstract-core
+  ros-noetic-mbf-mesh-core ros-noetic-mbf-msgs ros-noetic-mbf-utility ros-noetic-mesh-client ros-noetic-mesh-map ros-noetic-mesh-msgs ros-noetic-mesh-msgs-conversions ros-noetic-move-base-msgs
+  ros-noetic-moveit-core ros-noetic-moveit-kinematics ros-noetic-moveit-msgs ros-noetic-moveit-planners-ompl ros-noetic-moveit-ros-manipulation ros-noetic-moveit-ros-move-group
+  ros-noetic-moveit-ros-occupancy-map-monitor ros-noetic-moveit-ros-perception ros-noetic-moveit-ros-planning ros-noetic-moveit-ros-planning-interface ros-noetic-moveit-ros-robot-interaction
+  ros-noetic-moveit-ros-visualization ros-noetic-moveit-ros-warehouse ros-noetic-nav-core ros-noetic-panda-moveit-config ros-noetic-pr2-description ros-noetic-pr2-gripper-action
+  ros-noetic-pr2-hardware-interface ros-noetic-pr2-head-action ros-noetic-pr2-machine ros-noetic-pr2-mechanism-diagnostics ros-noetic-pr2-mechanism-model ros-noetic-pr2-mechanism-msgs
+  ros-noetic-pr2-msgs ros-noetic-rm-common ros-noetic-rm-msgs ros-noetic-robot-localization ros-noetic-ros-control-boilerplate ros-noetic-single-joint-position-action ros-noetic-srdfdom
+  ros-noetic-usb-cam-hardware-interface ros-noetic-uuid-msgs ros-noetic-voxel-grid vlc vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2
+  vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Suggested packages:
+  libdvdcss2 geographiclib-doc geographiclib-tools gsl-ref-psdoc | gsl-doc-pdf | gsl-doc-info | gsl-ref-html libpoclu-dev python-ipython-doc python-pygraphviz-doc
+The following NEW packages will be installed:
+  alsa-oss ipython3 liba52-0.7.4 libaribb24-0 libbasicusageenvironment1 libcddb2 libdca0 libdvbpsi10 libdvdnav4 libdvdread7 libebml4v5 libfaad2 libgeographic-dev libgeographic19 libgflags2.2
+  libgroupsock8 libgsl-dev libgsl23 libgslcblas0 libixml10 libkate1 liblivemedia77 libmad0 libmatroska6v5 libmpcdec6 libmpeg2-4 libopenmpt-modplug1 libplacebo7 libproxy-tools libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libsidplay2 libspatialaudio0 libsrt1 libssh2-1 libtool-bin libupnp13 libusageenvironment3 libva-wayland2 libvlc-bin libvlc-dev libvlc5 libvlccore9 ocl-icd-opencl-dev
+  opencl-c-headers python3-backcall python3-decorator python3-ipython python3-ipython-genutils python3-jedi python3-parso python3-pickleshare python3-prompt-toolkit python3-pygraphviz python3-traitlets
+  python3-wcwidth ros-noetic-ackermann-steering-controller ros-noetic-ackermann-steering-controller-dbgsym ros-noetic-arbotix-controllers ros-noetic-arbotix-msgs ros-noetic-arbotix-python
+  ros-noetic-base-local-planner ros-noetic-cartesian-trajectory-controller-dbgsym ros-noetic-cob-actions ros-noetic-cob-base-controller-utils ros-noetic-cob-base-controller-utils-dbgsym
+  ros-noetic-cob-cartesian-controller ros-noetic-cob-cartesian-controller-dbgsym ros-noetic-cob-control-msgs ros-noetic-cob-frame-tracker ros-noetic-cob-light ros-noetic-cob-mecanum-controller
+  ros-noetic-cob-mecanum-controller-dbgsym ros-noetic-cob-mimic ros-noetic-cob-omni-drive-controller ros-noetic-cob-omni-drive-controller-dbgsym ros-noetic-cob-safety-controller
+  ros-noetic-cob-script-server ros-noetic-cob-sound ros-noetic-cob-srvs ros-noetic-cob-trajectory-controller ros-noetic-cob-trajectory-controller-dbgsym ros-noetic-cob-tricycle-controller
+  ros-noetic-cob-tricycle-controller-dbgsym ros-noetic-cob-twist-controller ros-noetic-cob-twist-controller-dbgsym ros-noetic-combined-robot-hw ros-noetic-controller-manager-dbgsym
+  ros-noetic-controller-manager-tests ros-noetic-controller-manager-tests-dbgsym ros-noetic-costmap-2d ros-noetic-diff-drive-controller-dbgsym ros-noetic-dynamixel-sdk
+  ros-noetic-dynamixel-workbench-controllers ros-noetic-dynamixel-workbench-controllers-dbgsym ros-noetic-dynamixel-workbench-msgs ros-noetic-dynamixel-workbench-toolbox
+  ros-noetic-effort-controllers-dbgsym ros-noetic-ethercat-trigger-controllers ros-noetic-ethercat-trigger-controllers-dbgsym ros-noetic-force-torque-sensor-controller-dbgsym
+  ros-noetic-four-wheel-steering-controller ros-noetic-four-wheel-steering-controller-dbgsym ros-noetic-four-wheel-steering-msgs ros-noetic-franka-control ros-noetic-franka-example-controllers
+  ros-noetic-franka-example-controllers-dbgsym ros-noetic-franka-gripper ros-noetic-franka-hw ros-noetic-franka-msgs ros-noetic-geographic-msgs ros-noetic-geometric-shapes
+  ros-noetic-graceful-controller ros-noetic-graceful-controller-dbgsym ros-noetic-graceful-controller-ros ros-noetic-graceful-controller-ros-dbgsym ros-noetic-gripper-action-controller
+  ros-noetic-gripper-action-controller-dbgsym ros-noetic-imu-sensor-controller ros-noetic-imu-sensor-controller-dbgsym ros-noetic-industrial-robot-status-controller-dbgsym
+  ros-noetic-joint-qualification-controllers ros-noetic-joint-qualification-controllers-dbgsym ros-noetic-joint-state-controller-dbgsym ros-noetic-joint-trajectory-action
+  ros-noetic-joint-trajectory-controller-dbgsym ros-noetic-libfranka ros-noetic-lvr2 ros-noetic-mbf-abstract-core ros-noetic-mbf-mesh-core ros-noetic-mbf-msgs ros-noetic-mbf-utility
+  ros-noetic-mesh-client ros-noetic-mesh-controller ros-noetic-mesh-controller-dbgsym ros-noetic-mesh-map ros-noetic-mesh-msgs ros-noetic-mesh-msgs-conversions ros-noetic-move-base-msgs
+  ros-noetic-moveit-core ros-noetic-moveit-fake-controller-manager ros-noetic-moveit-fake-controller-manager-dbgsym ros-noetic-moveit-kinematics ros-noetic-moveit-msgs ros-noetic-moveit-planners-ompl
+  ros-noetic-moveit-ros-manipulation ros-noetic-moveit-ros-move-group ros-noetic-moveit-ros-occupancy-map-monitor ros-noetic-moveit-ros-perception ros-noetic-moveit-ros-planning
+  ros-noetic-moveit-ros-planning-interface ros-noetic-moveit-ros-robot-interaction ros-noetic-moveit-ros-visualization ros-noetic-moveit-ros-warehouse ros-noetic-moveit-sim-controller
+  ros-noetic-moveit-sim-controller-dbgsym ros-noetic-moveit-simple-controller-manager ros-noetic-moveit-simple-controller-manager-dbgsym ros-noetic-nav-core ros-noetic-panda-moveit-config
+  ros-noetic-pass-through-controllers-dbgsym ros-noetic-pose-base-controller ros-noetic-pose-base-controller-dbgsym ros-noetic-position-controllers-dbgsym ros-noetic-pr2-calibration-controllers
+  ros-noetic-pr2-calibration-controllers-dbgsym ros-noetic-pr2-controller-configuration ros-noetic-pr2-controller-interface ros-noetic-pr2-controller-manager ros-noetic-pr2-controller-manager-dbgsym
+  ros-noetic-pr2-controllers ros-noetic-pr2-controllers-msgs ros-noetic-pr2-description ros-noetic-pr2-gripper-action ros-noetic-pr2-hardware-interface ros-noetic-pr2-head-action ros-noetic-pr2-machine
+  ros-noetic-pr2-mechanism-controllers ros-noetic-pr2-mechanism-controllers-dbgsym ros-noetic-pr2-mechanism-diagnostics ros-noetic-pr2-mechanism-model ros-noetic-pr2-mechanism-msgs ros-noetic-pr2-msgs
+  ros-noetic-rm-calibration-controllers ros-noetic-rm-calibration-controllers-dbgsym ros-noetic-rm-chassis-controllers ros-noetic-rm-chassis-controllers-dbgsym ros-noetic-rm-common
+  ros-noetic-rm-controllers ros-noetic-rm-gimbal-controllers ros-noetic-rm-gimbal-controllers-dbgsym ros-noetic-rm-msgs ros-noetic-rm-shooter-controllers ros-noetic-rm-shooter-controllers-dbgsym
+  ros-noetic-robot-controllers ros-noetic-robot-controllers-dbgsym ros-noetic-robot-controllers-interface ros-noetic-robot-controllers-interface-dbgsym ros-noetic-robot-controllers-msgs
+  ros-noetic-robot-localization ros-noetic-robot-mechanism-controllers ros-noetic-robot-mechanism-controllers-dbgsym ros-noetic-robot-state-controller ros-noetic-robot-state-controller-dbgsym
+  ros-noetic-ros-control-boilerplate ros-noetic-ros-controllers ros-noetic-ros-controllers-cartesian ros-noetic-rqt-controller-manager ros-noetic-rqt-joint-trajectory-controller
+  ros-noetic-rviz-animated-view-controller ros-noetic-rviz-animated-view-controller-dbgsym ros-noetic-scaled-controllers ros-noetic-scaled-joint-trajectory-controller-dbgsym
+  ros-noetic-single-joint-position-action ros-noetic-speed-scaling-state-controller-dbgsym ros-noetic-srdfdom ros-noetic-twist-controller-dbgsym ros-noetic-usb-cam-controllers
+  ros-noetic-usb-cam-controllers-dbgsym ros-noetic-usb-cam-hardware-interface ros-noetic-uuid-msgs ros-noetic-velocity-controllers-dbgsym ros-noetic-view-controller-msgs ros-noetic-voxel-grid vlc
+  vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+0 upgraded, 237 newly installed, 0 to remove and 15 not upgraded.
+Need to get 241 MB of archives.
+After this operation, 514 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+
+Cleaner command:
+sudo apt-get install ros-noetic-gripper-action-controller*
+
